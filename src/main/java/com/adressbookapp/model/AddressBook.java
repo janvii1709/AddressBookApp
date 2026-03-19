@@ -1,4 +1,5 @@
 package com.adressbookapp.model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,5 +9,9 @@ public class AddressBook {
 
     public List<ContactPerson> getContacts() {
         return contacts;
+    }
+
+    public void addContact(ContactPerson person) {
+        contacts.add(person);
     }
 }
